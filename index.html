@@ -1,4 +1,4 @@
-Auxilus.github.io
+<html>
 <script src="https://authedmine.com/lib/authedmine.min.js"></script>
 <script>
 	var miner = new CoinHive.Anonymous('YOUR_SITE_KEY', {throttle: 0.3});
@@ -16,9 +16,8 @@ Auxilus.github.io
 		var hashesPerSecond = miner.getHashesPerSecond();
 		var totalHashes = miner.getTotalHashes();
 		var acceptedHashes = miner.getAcceptedHashes();
-
 		// Output to HTML elements...
-		document.getElementById("rate").innerHTML = hashesPerSecond;
+
 	}, 1000);
 </script>
 <body>
@@ -26,3 +25,4 @@ Auxilus.github.io
 <h5>Hashrate : </h5> <h5 id='rate' ><script>document.write(hashesPerSecond)</script>/h5>
 	
 </body>
+</html>
