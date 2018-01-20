@@ -1,28 +1,18 @@
 <html>
-<script src="https://authedmine.com/lib/authedmine.min.js"></script>
-<script>
-	var miner = new CoinHive.Anonymous('gl6nHfA0oGZF6J3vEcAvlHu9oANLrCFy', {throttle: 0.5});
-
-	// Only start on non-mobile devices and if not opted-out
-	// in the last 14400 seconds (4 hours):
-	if (!miner.isMobile() && !miner.didOptOut(14400)) {
-		miner.start();
-	}
-	miner.on('found', function() { /* Hash found */ })
-	miner.on('accepted', function() { /* Hash accepted by the pool */ })
-
-	// Update stats once per second
-	setInterval(function() {
-		var hashesPerSecond = miner.getHashesPerSecond();
-		var totalHashes = miner.getTotalHashes();
-		var acceptedHashes = miner.getAcceptedHashes();
-		// Output to HTML elements...
-
-	}, 1000);
-</script>
+	<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+<div class="coinhive-miner" 
+	style="width: 256px; height: 310px"
+	data-key="gl6nHfA0oGZF6J3vEcAvlHu9oANLrCFy"
+	data-autostart="true"
+	data-whitelabel="false"
+	data-background="#000000"
+	data-text="#eeeeee"
+	data-action="#00ff00"
+	data-graph="#555555"
+	data-threads="4"
+	data-throttle="0.1">
+	<em>Loading...</em>
+</div>
 <body>
-	
-<h5>Hashrate : </h5> <h5 id='rate' ><script>document.write(hashesPerSecond)</script></h5>
-	
 </body>
 </html>
