@@ -1,0 +1,11 @@
+--- network_interface-0.0.1/ext/network_interface_ext/netifaces.c
++++ network_interface-0.0.1/ext/network_interface_ext/netifaces.c
+@@ -677,7 +677,7 @@
+     return Qnil;
+   }
+ 
+-  pfreq = ifc.CNAME(ifc_req);
++  *pfreq = ifc.CNAME(ifc_req);
+ 
+   for (n = 0; n < ifc.CNAME(ifc_len)/sizeof(struct CNAME(ifreq));n++,pfreq++)
+   {
