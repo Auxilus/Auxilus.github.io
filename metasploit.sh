@@ -40,23 +40,6 @@ else
 	echo "nokogiri already installed"
 fi
 
-#sed 's|grpc (.*|grpc (1.4.1)|g' -i $msfpath/metasploit-framework/Gemfile.lock
-
-#if [ $isGrpc == "false" ];
-#then
-#	gem unpack grpc -v 1.4.1
-#	cd grpc-1.4.1
-#	curl -LO https://raw.githubusercontent.com/grpc/grpc/v1.4.1/grpc.gemspec
-#	curl -L https://raw.githubusercontent.com/Auxilus/Auxilus.github.io/master/Grpc_extconf.patch -o extconf.patch
-#	patch -p1 < extconf.patch
-#	gem build grpc.gemspec
-#	gem install grpc-1.4.1.gem
-#	cd ..
-#	rm -r grpc-1.4.1
-#else
-#	echo "grpc already installed"
-#fi
-
 cd $msfpath/metasploit-framework
 bundle install -j5
 
