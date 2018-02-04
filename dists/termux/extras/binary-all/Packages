@@ -5,6 +5,6 @@ Depends: autoconf, bison, clang, coreutils, apr, apr-util, libffi-dev, libgmp-de
 Priority: optional
 Version: 4.16.21-1
 Description: metasploit-framework
-Filename: dists/termux/extras/binary-all/metasploit-framework_4.16.21-1.deb
+Filename: dists/termux/extras/binary-all/metasploit-framework.deb
 Size: 20388736
 SHA256: f9ec1debc3d592392f93b734573e281444f145843d918d44749ba2864231644a
