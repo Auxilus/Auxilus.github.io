@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Codename: termux
+Version: 1
+Architectures: all
+Description: Extras repository
+Suite: termux
+Date: Sun, 04 Feb 2018 14:51:02 UTC
+SHA256:
+ c1665291b10e0cc611e70b9ae4b24fc47eac33d16f7b92e2b01dc371dbd2b3c1 685 extras/binary-all/Packages
+ 44fd831d71224d8384f9685386d8f40c475803ebc6649de5e4a55d76c47fbda2 484 extras/binary-all/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEeV31i0bs9ICSProeoC2rhrem5L4FAlp3IHEACgkQoC2rhrem
+5L5vjwf8CB9OIQPUOeVxXVmMKhpKA/PJydlTKkZep2Ik9Kh1DjVTwYRvQI0ekkQb
+TriBxzM19pPGn3H8DgUNJ3w9e5MYb5ddI88Q7aMj06iJhhT6gqc4glWlGnFU1LWX
+mvyUXyivsVj5XffI0fhHbMlHB40ldYJdYEXGP+X2sgIbXPXi8YOtx0SmeF4uUiQ5
+DU9exImzfwrDEAzrAmRuxmQ8sRZThuov4O+l1641vfVwkZVS57AaWDCsSuvLEUNj
+ha1SM34giYbOB1I4YJ15ikku0btci65Or/jchoYYtJ1uJ6V3b3hQnavilLuGac7e
+9Zqrgd43shclOuIid5XB1sWQdJ+Q6A==
+=2M6Q
+-----END PGP SIGNATURE-----
