@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/auxilus
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://Auxilus.github.io
+  * I am auxilus (https://keybase.io/auxilus) on keybase.
+  * I have a public key ASCd7FTB0KaTztMP7vhejUHQsYc3QB84jo8Hom4ZN9d9VAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209dec54c1d0a693ced30feef85e8d41d0b18737401f388e8f07a26e1937d77d540a",
+      "host": "keybase.io",
+      "kid": "01209dec54c1d0a693ced30feef85e8d41d0b18737401f388e8f07a26e1937d77d540a",
+      "uid": "0813f9894979050236c505032a3f7619",
+      "username": "auxilus"
+    },
+    "merkle_root": {
+      "ctime": 1526890237,
+      "hash": "932bacebc3925d00befdb3a1eff5f5d2ad1f5e1f985ec02e55facd1fefd0522a80c2da3742c4c11d2168ac335235bea1f80503266fdbdb4e675b89cc684ab2f9",
+      "hash_meta": "53e368782b776d2e2114309a0b788b9be485ec05aed9fbe3ed84e0f394b4fbaf",
+      "seqno": 2846185
+    },
+    "service": {
+      "entropy": "KTiSk7jTwJ5bmuNmDWnw7DMr",
+      "hostname": "Auxilus.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1526890259,
+  "expire_in": 504576000,
+  "prev": "372da423a0f61b0a918306e90a84ca030ddfb5c97565a747f8f3afde2fa48725",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnexUwdCmk87TD+74Xo1B0LGHN0AfOI6PB6JuGTfXfVQKp3BheWxvYWTESpcCCMQgNy2kI6D2GwqRgwbpCoTKAw3ftcl1ZadH+POv3i+khyXEIFN3HoWszs1pB42VLtdYZhKCErCRQAvo1k2FLdHSFjb3AgHCo3NpZ8RAdmOezVfIWnnqa/KAh+K2/Ofub9deBtSokJzpJmdbNIwJ4PO2nHbNhJa3rVdhGeiWqAur/b8QUHF5fMxKhax/A6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHKkDStXi6caUVKuAnvQvKtN9lUaa0eVBHqKGD8XzLj0o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/auxilus
+
+==================================================================
