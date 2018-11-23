@@ -39,6 +39,11 @@ if [ -e $PATH/bin/msfvenom ];then
 	rm $PATH/bin/msfvenom
 fi
 
+ln -s $msfpath/metasploit-framework/msfconsole /data/data/com.termux/files/usr/bin/
+ln -s $msfpath/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/
+
+termux-elf-cleaner /data/data/com.termux/files/usr/lib/ruby/gems/2.4.0/gems/pg-0.20.0/lib/pg_ext.so
+
 echo "Creating database"
 
 cd $msfpath/metasploit-framework/config
