@@ -32,15 +32,19 @@ bundle install -j5
 echo "Gems installed"
 $PREFIX/bin/find -type f -executable -exec termux-fix-shebang \{\} \;
 
-if [ -e $PATH/bin/msfconsole ];then
-	rm $PATH/bin/msfconsole
+if [ -e $PREFIX/bin/msfconsole ];then
+	rm $PREFIX/bin/msfconsole
 fi
-if [ -e $PATH/bin/msfvenom ];then
-	rm $PATH/bin/msfvenom
+if [ -e $PREFIX/bin/msfvenom ];then
+	rm $PREFIX/bin/msfvenom
 fi
 
-ln -s $msfpath/metasploit-framework/msfconsole /data/data/com.termux/files/usr/bin/
-ln -s $msfpath/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/
+echo "#!/data/data/com.termux/files/usr/bin/bash
+pg_ctl -D $PREFIX/var/lib/postgresql restart
+ruby $msfpath/metasploit-framework/msfconsole" > $PREFIX/bin/msfconsole
+
+echo "#!/data/data/com.termux/files/usr/bin/bash
+ruby $msfpath/metasploit-framework/msfvenom" > $PREFIX/bin/msfvenom
 
 termux-elf-cleaner /data/data/com.termux/files/usr/lib/ruby/gems/2.4.0/gems/pg-0.20.0/lib/pg_ext.so
 
