@@ -46,6 +46,9 @@ ruby $msfpath/metasploit-framework/msfconsole" > $PREFIX/bin/msfconsole
 echo "#!/data/data/com.termux/files/usr/bin/bash
 ruby $msfpath/metasploit-framework/msfvenom" > $PREFIX/bin/msfvenom
 
+chmod +rwx $PREFIX/bin/msfconsole
+chmod +rwx $PREFIX/bin/msfvenom
+
 termux-elf-cleaner /data/data/com.termux/files/usr/lib/ruby/gems/2.4.0/gems/pg-0.20.0/lib/pg_ext.so
 
 echo "Creating database"
