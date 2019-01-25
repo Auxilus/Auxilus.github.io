@@ -10,11 +10,11 @@ if [ $name != "metasploit.sh" ]; then
 	exit 1
 fi
 
-msfvar=4.17.26
+msfvar=5.0.2
 msfpath='/data/data/com.termux/files/home'
 if [ -d "$msfpath/metasploit-framework" ]; then
-	echo "metasploit is installed"
-	exit 1
+	echo "deleting old version..."
+        rm $msfpath/metasploit-framework -rf
 fi
 apt update
 apt install -y autoconf bison clang coreutils curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql termux-elf-cleaner
