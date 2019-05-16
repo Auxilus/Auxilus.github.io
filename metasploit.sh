@@ -1,5 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
+
+echo "The original installation steps for metasploit-framework are obsolete as the package is now available in the official unstable-repo"
+echo "this script will now install metasploit-framework from unstable-repo"
+pkg install unstable-repo
+pkg install metasploit-framework
+
+exit
+
 cwd=$(pwd)
 name=$(basename "$0")
 export msfinst="$cwd/$name"
