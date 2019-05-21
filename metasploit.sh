@@ -1,8 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-
+echo "--NOTICE--"
 echo "The original installation steps for metasploit-framework are obsolete as the package is now available in the official unstable-repo"
 echo "this script will now install metasploit-framework from unstable-repo"
+sleep 3
 pkg install unstable-repo
 pkg install metasploit-framework
 
