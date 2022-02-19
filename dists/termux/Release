@@ -1,9 +1,0 @@
-Codename: termux
-Version: 1
-Architectures: all
-Description: Extras repository
-Suite: termux
-Date: Fri, 09 Feb 2018 18:40:25 UTC
-SHA256:
- ad0e5d7b1462a02a41afe6714f8c5b83e702612e80eb59b165ab34a40ad2f51c 652 extras/binary-all/Packages
- 75a3a1d67c2c9ea989bab1ea834b2e92c48fecd9d62d32f48e84718e9d859db8 464 extras/binary-all/Packages.xz
